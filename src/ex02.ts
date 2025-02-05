@@ -11,7 +11,7 @@ enum DaysOfWeek {
   Saturday
 }
 
-function isWeekend(day: DaysOfWeek) {
+function isWeekend(day: DaysOfWeek): boolean {
   if(day === 0 || day === 6) {
     return true;
   } else {
